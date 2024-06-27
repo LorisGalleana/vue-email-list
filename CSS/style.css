@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mail-container ul {
+    list-style: none;
+}
+.mail-container li {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    
+}
