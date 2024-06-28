@@ -23,7 +23,9 @@
         <div class="mail-container">
             <ul>
                 <li v-for="(mails, indice) in mail" :key="indice" v-if="mail.length === 10">
+                    {{indice +1}}
                     {{mails.email}}
+                    
                 </li>
             </ul>
             
